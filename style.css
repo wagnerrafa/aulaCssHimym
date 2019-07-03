@@ -1,0 +1,79 @@
+body{
+    background-color:#f8e002;
+    margin:0;
+    
+}
+nav{
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header{
+    background-image: url(images/himym-original.jpeg);
+    background-size: cover;
+    height: 500px;
+}
+section{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    color: black;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    margin: 0px;
+    justify-content: space-evenly;
+}
+nav input{
+    width: 100px;
+    float: left;
+    height: 30px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    font-size: 40px;
+}
+input{
+    /* text-decoration: none;
+    background-color:#f8e002;
+    font-size: 18px;
+    border: 0;
+    padding: 0;
+    overflow:hidden;
+    outline:none;
+    color: red; */
+    background-color:#f8e002;
+    width:269px;
+    height:65px;
+    overflow:hidden;
+    outline:none;
+    border: 0;
+    color: red;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+footer a{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
